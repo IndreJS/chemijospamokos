@@ -325,7 +325,17 @@ section h2 {
     margin: 10px 0;
     font-size: 1.0rem;
 }
+.map-container {
+    margin-top: 40px;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 10px 24px rgba(75, 46, 35, 0.12);
+}
 
+.map-container iframe {
+    display: block;
+    width: 100%;
+}
 /* FOOTER */
 footer {
     background: #4b2e23;
