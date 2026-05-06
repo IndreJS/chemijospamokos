@@ -288,6 +288,9 @@ section h2 {
 .pricing {
     padding-top: 20px;
 }
+.pricing {
+    padding-bottom: 40px;
+}
 
 .pricing-intro {
     max-width: 760px;
