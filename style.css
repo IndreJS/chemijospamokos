@@ -59,7 +59,7 @@ header p {
         rgba(216, 193, 184, 0.72),
         rgba(216, 193, 184, 0.72)
     ),
-    url("lab.png");
+    url("images/lab.png");
 
     background-size: cover;
     background-position: center;
@@ -291,7 +291,6 @@ section h2 {
 .pricing {
     padding-bottom: 40px;
 }
-
 .pricing-intro {
     max-width: 760px;
     color: #5d473e;
@@ -325,7 +324,17 @@ section h2 {
     margin: 10px 0;
     font-size: 1.0rem;
 }
+.map-container {
+    margin-top: 40px;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 10px 24px rgba(75, 46, 35, 0.12);
+}
 
+.map-container iframe {
+    display: block;
+    width: 100%;
+}
 /* FOOTER */
 footer {
     background: #4b2e23;
